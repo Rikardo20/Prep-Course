@@ -102,6 +102,18 @@ function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
   // Tu código:
+
+  var numero = num
+  
+  if(numero < 90) {
+
+    return true;
+  }
+
+  else{
+
+    return false
+  }
   
 }
 
@@ -109,6 +121,18 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
+
+  var numero1 = num
+
+  if(numero1 > 50) {
+
+    return true;
+  }
+
+  else{
+
+    return false
+  }
   
 }
 
