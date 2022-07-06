@@ -112,7 +112,7 @@ function menosQueNoventa(num) {
 
   else{
 
-    return false
+    return false;
   }
   
 }
@@ -139,13 +139,30 @@ function mayorQueCincuenta(num) {
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
   // Tu código:
-  
+  var resto = x % y
+  return resto
+
 }
 
 function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
+
+    var numero2 = num
+    numero2 != 0
+    
+    // var diferenteDeCero = n != 0;
+    // var numero3 = 2 * numero2;
+  
+  if(numero2 % 2 === 0){
+
+    return true;
+  } else{
+
+    return false;
+  }
+  
   
 }
 
@@ -153,6 +170,17 @@ function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
   // Tu código:
+
+  var numero3 = num
+  numero3 != 0
+
+  if(numero3 % 2 > 0) {
+
+    return true;
+  } else {
+
+    return false;
+  }
   
 }
 
